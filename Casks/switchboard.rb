@@ -1,6 +1,6 @@
 cask "switchboard" do
   version "4.0.0"
-  sha256 :no_check   # replaced with the real hash by SwitchBoard/scripts/update-cask.sh at release
+  sha256 "a27b37edb19fd9721effc9b0b0eb15e429cfd3eb9ba6e110dcac6dce014f8d74"
 
   url "https://github.com/RelayLabs-cc/SwitchBoard-Releases/releases/download/v#{version}/SwitchBoard.zip"
   name "SwitchBoard"
