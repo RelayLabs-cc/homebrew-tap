@@ -2,7 +2,7 @@ cask "switchboard" do
   version "4.0.0"
   sha256 :no_check   # replaced with the real hash by SwitchBoard/scripts/update-cask.sh at release
 
-  url "https://github.com/rohand7/SwitchBoard-Releases/releases/download/v#{version}/SwitchBoard.zip"
+  url "https://github.com/RelayLabs-cc/SwitchBoard-Releases/releases/download/v#{version}/SwitchBoard.zip"
   name "SwitchBoard"
   desc "Route every link to the right browser, profile, or app"
   homepage "https://relaylabs.cc/switchboard"
