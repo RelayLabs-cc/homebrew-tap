@@ -12,7 +12,7 @@ cask "switchboard" do
     regex(/"version"\s*:\s*"(\d+(?:\.\d+)+)"/i)
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "SwitchBoard.app"
 
