@@ -1,7 +1,9 @@
 # Relay Labs Homebrew tap
 
 ```sh
-brew install --cask rohand7/tap/switchboard
+brew tap rohand7/tap
+brew trust rohand7/tap        # Homebrew 7+: third-party taps are trusted once, explicitly
+brew install --cask switchboard
 ```
 
 Until SwitchBoard is notarized, macOS will warn on first launch. Either right-click the app and choose Open once, or install with:
