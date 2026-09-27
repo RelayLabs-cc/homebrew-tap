@@ -1,6 +1,6 @@
 cask "switchboard" do
-  version "4.0.0"
-  sha256 "a27b37edb19fd9721effc9b0b0eb15e429cfd3eb9ba6e110dcac6dce014f8d74"
+  version "4.0.1"
+  sha256 "edcfd1e4c3e3bcec1a532e646e36fd7a0290acd8999cdc1a5cd9b6a77d22dadf"
 
   url "https://github.com/RelayLabs-cc/SwitchBoard-Releases/releases/download/v#{version}/SwitchBoard.zip"
   name "SwitchBoard"
@@ -12,6 +12,7 @@ cask "switchboard" do
     regex(/"version"\s*:\s*"(\d+(?:\.\d+)+)"/i)
   end
 
+  depends_on arch: :arm64
   depends_on macos: :ventura
 
   app "SwitchBoard.app"
