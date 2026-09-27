@@ -1,6 +1,6 @@
 cask "switchboard" do
-  version "4.0.1"
-  sha256 "edcfd1e4c3e3bcec1a532e646e36fd7a0290acd8999cdc1a5cd9b6a77d22dadf"
+  version "4.0.2"
+  sha256 "d5b2e526e1925a5ea5b9e67239c22891eee9fe7a747c6e76180a3f3b43f7e207"
 
   url "https://github.com/RelayLabs-cc/SwitchBoard-Releases/releases/download/v#{version}/SwitchBoard.zip"
   name "SwitchBoard"
